@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Shop</title>
+    <link rel="stylesheet" href="/css-styling/index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="index.html" class="header-logo">Maze</a>
+
+      <div class="header-search">
+        <input type="text" placeholder="Search products..." />
+        <button>&#128269;</button>
+      </div>
+
+      <a href="checkout.html" class="header-cart">
+        Cart
+        <div class="cart-quantity">
+          <span class="js-cart-quantity">0</span>
+        </div>
+      </a>
+    </header>
+
+    <!-- PRODUCT GRID (populated by cart.js) -->
+    <div class="js-product-grid"></div>
+
+    <!-- SCRIPTS -->
+    <script type="module" src="/scriptss/cart.js"></script>
+  </body>
+</html>
