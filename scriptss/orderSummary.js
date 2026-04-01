@@ -40,7 +40,7 @@
             zipCode: ZipCOde
         }));
 
-         window.location.href = '/html/confirmation.html';
+         window.location.href = '../html/confirmation.html';
       }
       
       

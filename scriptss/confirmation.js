@@ -73,7 +73,7 @@
 
       </div>
 
-      <a href="/html/index.html" class="continue-btn js-continue-btn">Continue Shopping →</a>
+      <a href="../html/index.html" class="continue-btn js-continue-btn">Continue Shopping →</a>
 
       </div>`;
  

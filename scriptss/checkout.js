@@ -241,7 +241,7 @@ function deleteFromCart(value) {
              localStorage.setItem('orderTotal', orderTotal);
             localStorage.setItem('customerItems', JSON.stringify(SelectedProduct));
 
-             window.location.href = '/html/order.html';
+             window.location.href = '../html/order.html';
         });
 
         updateOrderCount();
